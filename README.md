@@ -1,16 +1,16 @@
-# Setting Up the Minecraft Server - Windows
+# Setting Up the Minecraft Server
 
 ## Description
 
 This repository contains a starter kit to set up a Minecraft server capable of running our Python code. It contains two folders: one with the Minecraft server and one with the required Python library. The `Python Files` folder is also where we should store and run any Python files we have or make.
-Your computer must also have [Python](python.org) installed. IDLE comes automatically with Python, which is the editor we used during camp. 
+Your computer must also have [Python](python.org) installed to run Python code, and [Java](https://www.java.com/en/download/) to run the server. IDLE comes automatically with Python, which is the editor we used during camp. 
 
 ## Server Setup Guide
 
 * Download the code by clicking `Code` on the top right of this page, and then clicking `Download ZIP`.
 * Unzip the downloaded file using a tool like WinRAR, and you will be left with a folder containing the two folders.
 * The default Minecraft version for this server is Minecraft 1.12.2. If you (ask your child) want to use a different version of Minecraft, download the corresponding file [here](https://getbukkit.org/download/spigot).
-* If you downloaded a different file, rename it to `spigot.jar` and place it in the `Server` folder. In the same folder, run `start.bat`. You should need to run it twice, after it exits automatically the first time. This is only required once. (By completing this step, you are agreeing to the Minecraft [EULA](https://account.mojang.com/documents/minecraft_eula)).
+* If you downloaded a different file, rename it to `spigot.jar` and place it in the `Server` folder. In the same folder, run `start.bat` (Windows) or `start.command` (MacOS). You should need to run it twice, after it exits automatically the first time. This is only required once. (By completing this step, you are agreeing to the Minecraft [EULA](https://account.mojang.com/documents/minecraft_eula)).
 * After you run it the second time, you should see another black cmd window open. Let it run until you see `Done (Xs)! For help, type "help" or "?"`. Once you see this, your server is open and joinable.
 
 ## Joining the Server
