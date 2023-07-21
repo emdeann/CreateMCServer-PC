@@ -8,9 +8,15 @@ Your computer must also have [Python](python.org) installed to run Python code, 
 ## Server Setup Guide
 
 * Download the code by clicking `Code` on the top right of this page, and then clicking `Download ZIP`.
-* Unzip the downloaded file using a tool like WinRAR, and you will be left with a folder containing the two folders.
+* Unzip the downloaded file using a tool like WinRAR (For MacOS, simply double click the downloaded file), and you will be left with a parent folder containing the two subfolders.
 * The default Minecraft version for this server is Minecraft 1.12.2. If you (ask your child) want to use a different version of Minecraft, download the corresponding file [here](https://getbukkit.org/download/spigot).
-* If you downloaded a different file, rename it to `spigot.jar` and place it in the `Server` folder. In the same folder, run `start.bat` (Windows) or `start.command` (MacOS). You should need to run it twice, after it exits automatically the first time. This is only required once. (By completing this step, you are agreeing to the Minecraft [EULA](https://account.mojang.com/documents/minecraft_eula)).
+* If you downloaded a different file, rename it to `spigot.jar` and place it in the `Server` folder. In the same folder, run `start.bat` (Windows) or `start.command` (MacOS). You may need to run it twice, after it exits automatically the first time. This is only required once. (By completing this step, you are agreeing to the Minecraft [EULA](https://account.mojang.com/documents/minecraft_eula)).
+   * **MacOS Only:**
+      * `start.command` will likely not run the first time. If you see a popup saying it "can't be opened because it is from an unidentified developer", you need to override this to open the file. `start.command` is completely safe, it simply opens the server with the correct settings.
+         1. Go to your Security and Privacy settings inside System Preferences
+         2. You will see a line at the bottom saying that `start.command` was blocked: click `Open Anyway` and enter your password.
+         3. In the popup that shows up next, click `Open`
+ 
 * After you run it the second time, you should see another black cmd window open. Let it run until you see `Done (Xs)! For help, type "help" or "?"`. Once you see this, your server is open and joinable.
 
 ## Joining the Server
