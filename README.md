@@ -3,7 +3,9 @@
 ## Description
 
 This repository contains a starter kit to set up a Minecraft server capable of running our Python code. It contains two folders: one with the Minecraft server and one with the required Python library. The `Python Files` folder is also where we should store and run any Python files we have or make.
-Your computer must also have [Python](python.org) installed to run Python code, and [Java](https://www.java.com/en/download/) to run the server. IDLE comes with Python, which is the editor we used during camp. **You will need to check a box in the Python installer to make sure it includes IDLE. Do not forget to do this.**
+Your computer must also have [Python](https://www.python.org/downloads/release/python-380/) installed to run Python code, and [Java](https://www.java.com/en/download/) to run the server. IDLE comes with Python, which is the editor we used during camp. **You will need to check a box in the Python installer to make sure it includes IDLE. Do not forget to do this.**
+
+I will note here that the version of Python I linked is 3.8, which is not the latest version. This is intentional - mcpi was written long ago and the version we use is not compatible with versions of Python above 3.8. I am looking to personally update it at some point to keep the project alive, so feel free to send me a message if you'd like an update when I get around to it!
 
 ## Server Setup Guide
 
